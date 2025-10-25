@@ -1,0 +1,38 @@
+# Git files
+.git
+.gitignore
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv/
+env/
+
+# Test files
+test_*.py
+tests/
+pytest.ini
+
+# IDE and editor files
+.idea/
+.vscode/
+
+# Runtime generated files and directories
+logs/
+cache/
+outputs/
+*.log
+
+# Configuration files that may contain secrets
+.env
+
+# Docker and Compose files
+Dockerfile
+compose.yaml
+*.yml
+
+# Documentation
+README.md
